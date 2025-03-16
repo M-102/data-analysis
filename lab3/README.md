@@ -51,15 +51,6 @@
 
 ### Основные библиотеки
 
-- **pandas**  
-  Для работы с табличными данными: чтение, обработка и агрегация данных.
-
-- **numpy**  
-  Массивы и математические операции, векторизация вычислений.
-
-- **matplotlib.pyplot**  
-  Визуализация данных: построение графиков, гистограмм, диаграмм.
-
 - **requests**  
   Отправка HTTP-запросов для получения данных с веб-сайтов.
 
@@ -70,24 +61,6 @@
   Парсер XML/HTML для быстрого и корректного анализа разметки.
 
 ### Примеры используемых методов
-
-#### Pandas
-
-- `pandas.read_csv()` – загрузка данных из CSV-файлов.
-- `DataFrame.head()`, `DataFrame.tail()`, `DataFrame.info()`, `DataFrame.describe()`
-- `DataFrame.groupby()`, `DataFrame.merge()`, `DataFrame.pivot_table()`
-
-#### NumPy
-
-- `numpy.array()`, `numpy.linspace()`, `numpy.arange()`
-- `numpy.mean()`, `numpy.std()`
-
-#### Matplotlib
-
-- `matplotlib.pyplot.figure()`
-- `matplotlib.pyplot.plot()`, `matplotlib.pyplot.scatter()`
-- `matplotlib.pyplot.hist()`, `matplotlib.pyplot.bar()`
-- `matplotlib.pyplot.show()`, `matplotlib.pyplot.savefig()`
 
 #### Requests и BeautifulSoup
 
